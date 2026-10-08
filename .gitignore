@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+backend/venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+.next/
+out/
+
+
+
+# Accidental Node installer files
+/node.exe
+/corepack
+/corepack.cmd
+/nodevars.bat
+/npm
+/npm.cmd
+/npm.ps1
+/npx
+/npx.cmd
+/npx.ps1
+/install_tools.bat
+/gitignore.txt
+/node_acl.txt
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
